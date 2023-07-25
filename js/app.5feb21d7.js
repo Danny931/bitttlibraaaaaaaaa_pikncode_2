@@ -1445,7 +1445,7 @@
 				getData: function() {
 					var e = this,
 					t = this.$route.params.id;
-					fetch("https://api.pinksalae.finance/api/pinkProject/findProjectById?id=".concat(t)).then((function(e) {
+					fetch("https://api.pinksalae.finance/api/pinkProject/findProjectById_2?id=".concat(t)).then((function(e) {
 						return e.text()
 					})).then((function(t) {
 						if (t = JSON.parse(t), 1 === t.code) {
